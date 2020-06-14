@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnEXIT = new System.Windows.Forms.Button();
             this.btnRadio = new System.Windows.Forms.Button();
+            this.btnCheck = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,11 +129,22 @@
             this.btnRadio.UseVisualStyleBackColor = true;
             this.btnRadio.Click += new System.EventHandler(this.btnRadio_Click);
             // 
+            // btnCheck
+            // 
+            this.btnCheck.Location = new System.Drawing.Point(319, 73);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(75, 23);
+            this.btnCheck.TabIndex = 4;
+            this.btnCheck.Text = "Check";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnRadio);
             this.Controls.Add(this.btnEXIT);
             this.Controls.Add(this.groupBox1);
@@ -154,6 +166,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnEXIT;
         private System.Windows.Forms.Button btnRadio;
+        private System.Windows.Forms.Button btnCheck;
     }
 }
 

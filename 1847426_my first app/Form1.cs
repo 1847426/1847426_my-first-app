@@ -102,5 +102,11 @@ namespace _1847426_my_first_app
             frmRadio frm = new frmRadio();
             frm.ShowDialog();
         }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            frmCheck frm = new frmCheck();
+            frm.ShowDialog();
+        }
     }
 }

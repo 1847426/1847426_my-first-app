@@ -39,7 +39,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(295, 257);
+            this.btnBack.Location = new System.Drawing.Point(217, 230);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 0;
@@ -49,21 +49,22 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(78, 51);
+            this.btnShow.Location = new System.Drawing.Point(59, 67);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(75, 23);
             this.btnShow.TabIndex = 1;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.chkBrownie);
             this.panel1.Controls.Add(this.chkDonut);
             this.panel1.Controls.Add(this.chkCoffee);
-            this.panel1.Location = new System.Drawing.Point(78, 108);
+            this.panel1.Location = new System.Drawing.Point(59, 108);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.Size = new System.Drawing.Size(151, 93);
             this.panel1.TabIndex = 2;
             // 
             // chkCoffee

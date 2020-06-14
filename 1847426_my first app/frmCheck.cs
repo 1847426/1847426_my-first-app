@@ -26,6 +26,38 @@ namespace _1847426_my_first_app
         {
             this.DialogResult = DialogResult.OK;
         }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            string msg = "";
+
+            if (chkCoffee.Checked == true)
+            {
+                msg = chkCoffee.Text;
+            }
+
+            if (chkDonut.Checked == true)
+            {
+                msg = msg + " " + chkDonut.Text;
+            }
+
+            if (chkBrownie.Checked == true)
+            {
+                msg = msg + " " + chkBrownie.Text;
+            }
+
+
+
+            if (msg.Length > 0)
+            {
+                MessageBox.Show(msg + " selected ");
+            }
+            else //length is zero
+            {
+                MessageBox.Show("Nothing selected");
+            }
+
+        }
     }
 }
 
